@@ -1,0 +1,219 @@
+/* Position Chat Widget Icon */
+
+.siteLinks > div.chat {
+	top: 30px;
+}
+
+/* Make the Clear Filters button more visible */
+
+.clearRefinements {
+	background: #474747;
+	color: #fff !important;
+	font-size: 1.1em;
+	padding: 1.5em 0 .75em 0;
+	text-align: center;
+}
+
+.clearRefinements:hover {
+	color: #d4d4d4 !important;
+}
+
+.Filter a {
+	padding: .15em .7em .15em 2em;
+}
+
+
+/* Make the Search OhioLINK button larger, redder, and more prominent */
+
+#ohiolink-passthrough {
+	border-right: 0;
+}
+
+#ohiolink-search {
+	position: relative;
+	top: 5px;
+}
+
+a.newbutton {
+	color: #fff !important;
+	display: inline;
+	padding: 10px 25px 10px 25px;
+	margin: 2em;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+a.newbutton {
+	background: #ac1a2f !important;
+	border: 0;
+	border-radius: 3px;
+	margin: 0;
+	transition: background .2s, color .2s;
+}
+
+a.newbutton:hover {
+	background: #000000 !important;
+	border: 0;
+	border-radius: 3px;
+	color: #fff !important;
+	margin: 0;
+
+}
+
+a.newbutton:active {
+	background: #444444 !important;
+	border-radius: 3px;
+	color: #fff;
+	margin: 0;
+
+}
+
+
+/* Add some room around the search box to make way for the Search OhioLINK button */
+
+.queryBox div {
+	padding-right: 0;
+}
+
+.queryBox {
+	padding: 0 3em 0 2em;
+	width: 50%;
+}
+
+
+/* Style the "clear search" icon in the search box */
+
+.search-reset {
+    display: none;
+    position: absolute;
+    top: 7px;
+    right: 110px;
+    width: 18px;
+    height: 18px;
+    text-indent: -9999px;
+    padding: 0 5px;
+    cursor: pointer;
+    background: url('http://library.owu.edu/images/clear-search.png') no-repeat;
+    -webkit-transition:
+    background-color 0.2s ease 0.2s;
+    -moz-transition: background-color 0.2s ease 0.2s;
+    -ms-transition: background-color 0.2s ease 0.2s;
+    -o-transition: background-color 0.2s ease 0.2s;
+    transition: background-color 0.2s ease 0.2s; */
+}
+ 
+.search-reset:hover {
+    background-color: #fff;
+}
+ 
+.search-reset:active {
+    -webkit-box-shadow: inset 1px 1px 2px #bbb;
+    -moz-box-shadow: inset 1px 1px 2px #bbb;
+    -ms-box-shadow: inset 1px 1px 2px #bbb;
+    -o-box-shadow: inset 1px 1px 2px #bbb;
+    box-shadow: inset 1px 1px 2px #bbb;
+}
+
+
+/* Some tweaks to the running header to make things more streamlined */
+
+.siteHeader {
+	height: 85px;
+	padding-top: 2.5em;
+}
+
+form.flowLogin input.btn {
+	box-shadow: none;
+}
+
+.savedItemsFolderContainer {
+	padding-right: 5em;
+	width: 50px;
+	min-width: 75px;
+	max-width: 75px;
+}
+
+a.newbutton-mobile {
+	color: #08c;
+}
+
+#linksMenu .newbutton-mobile {
+	background: #fff !important;
+	box-shadow: 6px 0 6px -6px #ccc inset;
+	-moz-box-shadow: 6px 0 6px -6px #ccc inset;
+	-webkit-box-shadwo: 6px 0 6px -6px #ccc inset;
+	border-bottom: 1px solid #ccc;
+}
+
+#linksMenu .siteLinks > div {
+	border-bottom: 0px;
+}
+
+
+/* Clean up the display of Search OhioLINK and Flow login buttons in responsive viewports */
+
+@media screen and (max-width: 1024px) {
+	#ohiolink-search {
+		position: relative;
+		top: 0px;
+		}
+
+	#linksMenu .siteLinks div.chat {
+		display: none;
+	}
+
+	form.flowLogin {
+		background-color: #fff;
+		border-top: 1px solid #ccc !important;
+		border-bottom: 1px solid #ccc !important;
+		box-shadow: 6px 0 6px -6px #ccc inset;
+		-moz-box-shadow: 6px 0 6px -6px #ccc inset;
+		-webkit-box-shadow: 6px 0 6px -6px #ccc inset;
+	}
+
+	.queryBox {
+		padding: 0 3em 0 2em;
+		width: 100%;
+	}
+
+	a.newbutton {
+		color: #08c !important;
+		display: inline;
+		padding: 0;
+		margin: 2em;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 3px;
+		overflow: hidden;
+		}
+
+	a.newbutton {
+		background: transparent !important;
+		border: 0;
+		border-radius: 0;
+		margin: 0;
+		transition: background .2s, color .2s;
+		}
+
+	a.newbutton:hover {
+		background: transparent !important;
+		border: 0;
+		border-radius: 0;
+		color: #333 !important;
+		margin: 0;
+		text-decoration: underline;
+		}
+
+	.search-reset {
+	    right: 80px;
+	}
+
+	a.newbutton:active {
+		background: #444444 !important;
+		border-radius: 3px;
+		color: #08c !important;
+		margin: 0;
+		}
+	}
