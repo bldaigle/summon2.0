@@ -29,9 +29,7 @@ $(document).ready(function() {
             var searchterm = form_data['q'];
             window.location.href = 'http://olc1.ohiolink.edu/search/X?SEARCH=' + searchterm;
         });
-
-        // Change the label "Preview" to "Details" in the search results
-        $('div.togglePreview a').text('Details');
+        
     };
   
 }); 
